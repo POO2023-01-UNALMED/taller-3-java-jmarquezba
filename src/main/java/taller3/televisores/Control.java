@@ -16,7 +16,7 @@ public class Control {
 	public void volumenDown() {this.tv.volumenDown();}
 	
 	public void setCanal(int canal) {
-		if (this.tv.isEstado() == true) {
+		if (this.tv.getEstado() == true) {
 			if (canal>=1 && canal<=120) {this.tv.setCanal(canal);}
 		}
 	}

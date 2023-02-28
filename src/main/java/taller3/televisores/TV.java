@@ -30,6 +30,10 @@ public class TV {
 		return canal;
 	}
 
+	public static void setNumTV(int numTV) {
+		TV.numTV = numTV;
+	}
+
 	public void setCanal(int canal) {
 		this.canal = canal;
 	}
